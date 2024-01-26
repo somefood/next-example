@@ -1,3 +1,4 @@
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 const { db } = require('@vercel/postgres');
 const {
   invoices,
